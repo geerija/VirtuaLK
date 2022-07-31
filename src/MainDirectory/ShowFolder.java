@@ -10,12 +10,13 @@ public class ShowFolder {
     public static Welcome Welcome =new Welcome();
     public static fileNames fileNames =new fileNames();
     public static Show CurrentScreen= Welcome;
-    public static WelcomeScreen getCurrentScreen()
+    public static Show getCurrentScreen()
     {
         return CurrentScreen();
 
     }
-    public static void setCurrentScreen(WelcomeScreen)
+
+    public static void setCurrentScreen(Welcome currentScreen)
     {
         CurrentScreen =currentScreen;
     }

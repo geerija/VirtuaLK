@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd4c6c28-af5b-492b-8a82-00c18b7b4e01" name="Changes" comment="Third Commit">
-      <change afterPath="$PROJECT_DIR$/src/LockedmeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainDirectory/FolderMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainDirectory/ShowFolder.java" afterDir="false" />
+    <list default="true" id="dd4c6c28-af5b-492b-8a82-00c18b7b4e01" name="Changes" comment="fourth Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WelcomeScreen/Welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WelcomeScreen/Welcome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/displayApp/ApplicationDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainDirectory/ShowFolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainDirectory/ShowFolder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659249333411</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fourth Commit">
+      <created>1659257129537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659257129537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +118,7 @@
     <MESSAGE value="Update first Commit" />
     <MESSAGE value="Second Commit" />
     <MESSAGE value="Third Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third Commit" />
+    <MESSAGE value="fourth Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth Commit" />
   </component>
 </project>
