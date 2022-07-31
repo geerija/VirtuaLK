@@ -40,9 +40,9 @@ public class Welcome {
     public void FetchInput()
     {
         int optionChosen =0;
-        while ((optionChosen =this.getOption()!=3))
+        while ((optionChosen =this.getOption())!=3)
         {
-            this.linkOption(seletedOption);
+            this.linkOption(optionChosen);
         }
     }
     public void linkOption(int choice)
@@ -54,7 +54,7 @@ public class Welcome {
                 break;
             case 2:
                 ScreenService.setCurrentScreen(ScreenService.FileOptionsScreen);
-                ScreenService.getCurrentScreen().DisplayShow();
+                ScreenService.getCurrentScreen().Show();
                 ScreenService.getCurrentScreen().GetUserInput();
                 this.DisplayShow();
                 break;

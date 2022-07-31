@@ -1,11 +1,15 @@
 package WelcomeScreen;
 
+import appStorage.Folder;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
 public class fileNames implements Show {
     private Folder f1 = new Folder();
@@ -20,9 +24,15 @@ public class fileNames implements Show {
 
     public void DisplayShow() {
         System.out.println("File Options Menu");
+        String[] options = new String[0];
         for (String v1 : options) {
             System.out.println(v1);
         }
+    }
+
+    @Override
+    public void linkOption(int choice) {
+        
     }
 
     public void FetchInput() {
@@ -85,8 +95,64 @@ public class fileNames implements Show {
     }
 
     public void SearchFile() {
+        Boolean found=false;
+        System.out.println("Please Enter the Filename:");\
+        String fileName= this.getInputString();
+        System.out.println("You are searching for a file named: " + fileName);
+        ArrayList<File> files =f1.getFiles();
+        for (int i=0;i<files.size();i++)
+        {
+            if(files.get(i).getName().equals(fileName));
+            {
+                System.out.println("found "+fileName);
+                found=true;
+            }
+        }
+        if (found==false)
+        {
+            System.out.println("file not available");
+        }
+    }
+    private String getInputString() {
 
+        Scanner in = new Scanner(System.in);
+        return(in.nextLine());
 
     }
+
+    private int getOption()
+    {
+        Scanner sc=new Scanner(System.in);
+        int returnOption =0;
+        try {
+            returnOption =sc.nextInt();
+
+        }
+        catch (InputMismatchException ex)
+        {
+            System.out.println("Invalid input");
+        }
+        return returnOption;
+
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
