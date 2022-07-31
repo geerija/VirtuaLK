@@ -6,6 +6,10 @@ package WelcomeScreen;
 //   Features to accept the user input to select one of the options listed
 
 
+import MainDirectory.FolderMain;
+import MainDirectory.ShowFolder;
+import appStorage.Folder;
+
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -33,7 +37,7 @@ public class Welcome {
         System.out.println("Final list ");
         for (String v:a1);
         {
-            System.out.println(v);
+            System.out.println(a1);
         }
 
     }
@@ -49,19 +53,25 @@ public class Welcome {
     {
         switch (choice)
         {
-            case 1: this.ContentDisplay();
+            case 1: this.ShowFiles();
                 this.DisplayShow();
                 break;
             case 2:
-                ScreenService.setCurrentScreen(ScreenService.FileOptionsScreen);
-                ScreenService.getCurrentScreen().Show();
-                ScreenService.getCurrentScreen().GetUserInput();
+                ShowFolder.setCurrentScreen(ShowFolder.FileOptionsScreen);
+                ShowFolder.getCurrentScreen().();
+                ShowFolder.getCurrentScreen().GetUserInput();
                 this.DisplayShow();
                 break;
             default:
                 System.out.println("Selected choice not available");
                 break;
         }
+    }
+    public void ShowFiles() {
+
+        System.out.println("List of Files: ");
+        FolderMain.PrintFiles();
+
     }
     private int getOption()
     {

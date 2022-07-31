@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd4c6c28-af5b-492b-8a82-00c18b7b4e01" name="Changes" comment="Second Commit">
-      <change afterPath="$PROJECT_DIR$/src/displayApp/ApplicationDisplay.java" afterDir="false" />
+    <list default="true" id="dd4c6c28-af5b-492b-8a82-00c18b7b4e01" name="Changes" comment="Third Commit">
+      <change afterPath="$PROJECT_DIR$/src/LockedmeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainDirectory/FolderMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainDirectory/ShowFolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WelcomeScreen/Welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WelcomeScreen/Welcome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WelcomeScreen/fileNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WelcomeScreen/fileNames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appStorage/Folder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/appStorage/Folder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/displayApp/ApplicationDisplay.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659197365462</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Third Commit">
+      <created>1659249333411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659249333411</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +114,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Update first Commit" />
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="Third Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third Commit" />
   </component>
 </project>
