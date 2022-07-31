@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd4c6c28-af5b-492b-8a82-00c18b7b4e01" name="Changes" comment="fourth Commit">
+    <list default="true" id="dd4c6c28-af5b-492b-8a82-00c18b7b4e01" name="Changes" comment="upadted fourth Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainDirectory/ShowFolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainDirectory/ShowFolder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659257129537</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="upadted fourth Commit">
+      <created>1659257798490</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659257798490</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +125,7 @@
     <MESSAGE value="Second Commit" />
     <MESSAGE value="Third Commit" />
     <MESSAGE value="fourth Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fourth Commit" />
+    <MESSAGE value="upadted fourth Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="upadted fourth Commit" />
   </component>
 </project>
