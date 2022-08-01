@@ -22,17 +22,18 @@ public class fileNames implements Show {
         a1.add("4. RETURN TO LIST");
     }
 
+    @Override
     public void DisplayShow() {
         System.out.println("File Options Menu");
-        String[] options = new String[0];
-        for (String v1 : options) {
+        //   String[] options = new String[0];
+        for (String v1 : a1) {
             System.out.println(v1);
         }
     }
 
     @Override
     public void linkOption(int choice) {
-        
+
     }
 
     public void FetchInput() {
@@ -41,6 +42,7 @@ public class fileNames implements Show {
             this.NavigateOption(selectedOption);
         }
     }
+
 
     public void NavigateOption(int option) {
         switch (option) {
@@ -96,7 +98,7 @@ public class fileNames implements Show {
 
     public void SearchFile() {
         Boolean found=false;
-        System.out.println("Please Enter the Filename:");\
+        System.out.println("Please Enter the Filename:");
         String fileName= this.getInputString();
         System.out.println("You are searching for a file named: " + fileName);
         ArrayList<File> files =f1.getFiles();
@@ -113,6 +115,7 @@ public class fileNames implements Show {
             System.out.println("file not available");
         }
     }
+
     private String getInputString() {
 
         Scanner in = new Scanner(System.in);
@@ -135,7 +138,6 @@ public class fileNames implements Show {
         return returnOption;
 
     }
-
 }
 
 

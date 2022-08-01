@@ -9,22 +9,26 @@ import java.util.Collections;
 
 public class Folder {
     public static final String name ="";
+
     private ArrayList<File> files =new ArrayList<>();
+
     Path path = FileSystems.getDefault().getPath(name).toAbsolutePath();
+
     File Dfiles =path.toFile();
-    public String getName()
-    {
+
+    public String getName() {
         return name;
     }
-    public void print()
-    {
+
+    public void print(){
         System.out.println("Existing Files: ");
         files.forEach(f -> System.out.println(f));
-
     }
-    public ArrayList<File> fillFiles()
-    {
+
+    public ArrayList<File> fillFiles() {
+
         File[] directoryFiles =Dfiles.listFiles();
+
         files.clear();
         for (int i=0;i<directoryFiles.length;i++)
         {
@@ -40,10 +44,6 @@ public class Folder {
     {
         fillFiles();
         return files;
-    }
-    public void mergeSort()
-    {
-
     }
 
 }
