@@ -8,7 +8,7 @@ import java.util.Collection;
 import java.util.Collections;
 
 public class Folder {
-    public static final String name ="";
+    public static final String name ="src/Documents/";
 
     private ArrayList<File> files =new ArrayList<>();
 
