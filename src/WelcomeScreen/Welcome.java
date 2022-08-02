@@ -23,8 +23,8 @@ public class Welcome implements Show {
 
     public Welcome()
     {
-        a1.add("1. Show Files: ");
-        a1.add("2. Files List: ");
+        a1.add("1. Show Files list: ");
+        a1.add("2. Files Admin Screen: ");
         a1.add("3. Quit");
     }
     public void MainScreen()
